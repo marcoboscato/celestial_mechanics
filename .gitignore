@@ -162,3 +162,9 @@ cython_debug/
 # ignore all the zip or rar archives
 *.zip
 *.rar
+
+# ignore class pdf
+Dispense/
+
+# C++ stuff
+.vscode
