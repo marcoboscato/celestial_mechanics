@@ -35,7 +35,7 @@ class Particles:
         """
 
         acc = np.atleast_2d(acceleration)
-        if acceleration.shape[1] != 3: print(f"Input acceleration should contain a Nx3 array, current shape is {acc.shape}")
+        if acceleration.shape[1] < 2: print(f"Input acceleration should contain a Nx3 array, current shape is {acc.shape}")
 
         self.acc=acc
 

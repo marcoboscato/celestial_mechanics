@@ -7,7 +7,8 @@ from exercise1 import RK_4th_order
 masses = np.array([3., 4., 5.])
 position = np.array([[1., 3.], [-2., -1.], [1., -1.]])
 velocity   = np.array([[0.,0.],[0.,0.],[0.,0.]])
-G = 1.0                                                     #N-body units
+#N-body units
+G = 1.0   
 t0 = 0.0
 tf = 70.0
 h0 = 0.1
@@ -21,6 +22,16 @@ def h_adaptive(r, h0):
     return h0/denominator
 
 # equations of the inertial motion of three bodies:
+def acceleration_three_body():
+    acc = np.zeros((3,2), dtype=float)
+    for i in range(3):
+        for j in range(3):
+            if i != j:
+                r = np.linalg.norm(position[i] - position[j])
+                temp = - G*masses[j]*(position[i] - position[j]) / r**3.
+                acc[i,:] += temp
+    return acc
+
 
 
 
