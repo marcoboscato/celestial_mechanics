@@ -76,6 +76,18 @@ class Particles:
         """
 
         return np.sum(self.mass*self.vel.T,axis=1)/np.sum(self.mass)
+    
+    def copy(self) -> Particles:
+        """
+        Return a copy of this Particle class
+
+        :return: a copy of the Particle class
+        """
+
+        par=Particles(np.copy(self.pos),np.copy(self.vel),np.copy(self.mass))
+        if self.acc is not None: par.acc=np.copy(self.acc)
+
+        return Particles(np.copy(self.pos),np.copy(self.vel),np.copy(self.mass))
 
     
     def Ekin_vett(self) -> float:
