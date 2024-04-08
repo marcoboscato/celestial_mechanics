@@ -11,7 +11,7 @@ def integrator_rungekutta(particles: Particles,
 
     particles.acc = acceleration_estimator(Particles(particles.pos ,
                                                      particles.vel ,
-                                                     particles.mass ))
+                                                     particles.mass))
     
     k1_r = tstep * particles.vel
     k1_v = tstep * particles.acc
