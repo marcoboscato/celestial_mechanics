@@ -1,0 +1,38 @@
+Here are the LAGEOS 1 IC for Jan 1 (m, m/s)
+
+          EPOCH1                  2020.0                 1.0                 1.0
+          EPOCH2                     0.0                 0.0          0.00000000
+          POS          -3925648.12725143    4994759.41318484  -10562295.01282353
+          VEL            709.82404964822    5180.59677349323    2200.47213474637
+
+These are the osculating elements for Jan 1 
+
+     INITIAL ORBITAL ELEMENTS:        (GRAVITATIONAL COEFFICIENT =  398600.441500 KM**3/SEC**2)
+
+               MEAN-OF-2000.0 NONROTATING SYSTEM                               TRUE-OF-DATE NONROTATING SYSTEM
+
+          SEMI-MAJOR AXIS (M)    =   12266910.678102                      SEMI-MAJOR AXIS (M)    =   12266910.678102
+          ECCENTRICITY           =    0.005259278879                      ECCENTRICITY           =    0.005259278879
+          INCLINATION (DEG)      =    109.9711850720                      INCLINATION (DEG)      =    109.8617117398
+          ARG. OF PERIGEE (DEG)  =     89.8372025635                      ARG. OF PERIGEE (DEG)  =     89.8344191832
+          LONG. OF NODE (DEG)    =     90.9947168025                      LONG. OF NODE (DEG)    =     91.2457986010
+          MEAN ANOMALY (DEG)     =    204.6617560531                      MEAN ANOMALY (DEG)     =    204.6617560531
+          TRUE ANOMALY (DEG)     =    204.6571303113                      TRUE ANOMALY (DEG)     =    204.6571303113
+          ARG. OF LATITUDE (DEG) =    294.2489832396                      ARG. OF LATITUDE (DEG) =    294.2461998593
+          PERIOD (SEC)           =      13521.154805                      PERIOD (SEC)           =      13521.154805
+
+Here are the IC for March 9 (m, m/s)
+
+          EPOCH1                  2022.0                 3.0                 9.0
+          EPOCH2                     0.0                 0.0          0.00000000
+          POS           9198201.11108904    3346470.46358190   -7343619.83372384
+          VEL           3760.29086118529   -1216.94859686718    4128.52516735403
+
+
+LAGEOS 1 mass of 407 kg, cross-sectional area of 0.283 m**2, and reflectivity of 1.133 for solrad.
+
+
+More I.C. (April 20, 2022 at 00:00:00.00 UTC):
+
+       MJD      SemimajorAxis(m)  Eccentricity  Inclination(deg)  Arg.Perigee(deg) AscendingNode(deg) MeanAnomaly(deg) Arg.Latitude(deg) OrbitPeriod(sec)
+   59689.000000   12271216.2078    0.00388034      109.907041        264.924693         18.640616        132.330986         37.583325      13528.274060                          
