@@ -169,3 +169,4 @@ Dispense/
 # C++ stuff
 .vscode
 pyfalcon/
+*.npy
