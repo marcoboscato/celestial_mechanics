@@ -162,6 +162,7 @@ cython_debug/
 # ignore all the zip or rar archives
 *.zip
 *.rar
+*.npy
 
 # ignore class pdf
 Dispense/
@@ -169,4 +170,3 @@ Dispense/
 # C++ stuff
 .vscode
 pyfalcon/
-*.npy
