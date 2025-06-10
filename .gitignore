@@ -170,3 +170,6 @@ Dispense/
 # C++ stuff
 .vscode
 pyfalcon/
+
+# ignore all the results files
+*.png
